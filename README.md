@@ -90,6 +90,19 @@ function Accordion() {
 }
 ```
 
+### `useOnlineStatus`
+
+Track browser online/offline status.
+
+```tsx
+import { useOnlineStatus } from '@3ni8ma/react-hooks'
+
+function NetworkStatus() {
+  const isOnline = useOnlineStatus()
+  return <div>{isOnline ? 'Online' : 'Offline'}</div>
+}
+```
+
 ## License
 
 MIT
