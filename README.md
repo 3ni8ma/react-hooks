@@ -103,6 +103,20 @@ function NetworkStatus() {
 }
 ```
 
+### `useDocumentTitle`
+
+Set `document.title` reactively with automatic cleanup.
+
+```tsx
+import { useDocumentTitle } from '@3ni8ma/react-hooks'
+
+function ProfilePage({ name }) {
+  useDocumentTitle(`${name} — My App`)
+  return <div>Profile</div>
+  // title restores when component unmounts
+}
+```
+
 ## License
 
 MIT
