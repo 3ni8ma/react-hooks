@@ -16,21 +16,31 @@
       "import": "./dist/*.js"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
-    "test": "vitest run"
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
-  "keywords": ["react", "hooks", "react-hooks", "use-media-query", "use-clipboard"],
+  "keywords": [
+    "react",
+    "hooks",
+    "react-hooks",
+    "use-media-query",
+    "use-clipboard"
+  ],
   "license": "MIT",
   "peerDependencies": {
     "react": ">=18.0.0"
   },
   "devDependencies": {
-    "typescript": "^5.8.0",
-    "vitest": "^3.0.0",
+    "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.0.0",
-    "jsdom": "^25.0.0"
+    "jsdom": "^25.0.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.0.0"
   }
 }
