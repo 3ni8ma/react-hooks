@@ -1,5 +1,7 @@
 # @3ni8ma/react-hooks
 
+[![RepoRanker](https://reporanker.com/badge/3ni8ma/react-hooks)](https://reporanker.com/repos/3ni8ma/react-hooks)
+
 A collection of production-ready React hooks for common UI patterns.
 
 ## Installation
