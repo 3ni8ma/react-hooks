@@ -1,4 +1,4 @@
-// Updated: 2026-07-01 17:02:44
+// Updated: 2026-07-01 18:00:01
 import { renderHook } from '@testing-library/react';
 import { describe, it, expect } from 'vitest';
 import { useDocumentTitle } from '../useDocumentTitle';
