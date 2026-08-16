@@ -1,5 +1,8 @@
 # @3ni8ma/react-hooks
 
+[![npm version](https://img.shields.io/npm/v/@3ni8ma/react-hooks)](https://www.npmjs.com/package/@3ni8ma/react-hooks)
+[![License](https://img.shields.io/github/license/3ni8ma/react-hooks)](https://github.com/3ni8ma/react-hooks/blob/main/LICENSE)
+
 [![RepoRanker](https://reporanker.com/badge/3ni8ma/react-hooks)](https://reporanker.com/repos/3ni8ma/react-hooks)
 
 A collection of production-ready React hooks for common UI patterns.
