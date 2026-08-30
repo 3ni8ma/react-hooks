@@ -1,4 +1,4 @@
-// Update: 2026-08-30 05:30:06
+// Update: 2026-08-30 06:30:27
 import { useState, useEffect, useRef, useCallback } from 'react';
 
 export function useDebounce<T>(value: T, delay: number = 500): [T, () => void] {
