@@ -1,4 +1,4 @@
-// Update: 2026-09-30 20:30:23
+// Update: 2026-09-30 21:00:14
 import { useState, useCallback, useEffect } from 'react';
 
 export function useLocalStorage<T>(key: string, initialValue: T): [T, (value: T | ((prev: T) => T)) => void] {
