@@ -1,4 +1,4 @@
-// Update: 2026-10-29 11:30:19
+// Update: 2026-10-29 13:00:13
 import { useRef, useEffect } from 'react';
 
 export function usePrevious<T>(value: T): T | undefined {
