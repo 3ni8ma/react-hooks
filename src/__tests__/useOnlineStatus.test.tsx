@@ -1,4 +1,4 @@
-// Updated: 2026-11-07 00:30:26
+// Updated: 2026-11-07 01:01:22
 import { renderHook, act } from '@testing-library/react';
 import { describe, it, expect } from 'vitest';
 import { useOnlineStatus } from '../useOnlineStatus';
