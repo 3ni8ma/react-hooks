@@ -1,4 +1,4 @@
-// Update: 2026-11-19 19:30:08
+// Update: 2026-11-19 20:30:09
 import { useEffect, useRef } from 'react';
 
 type EventMap = WindowEventMap & HTMLElementEventMap & DocumentEventMap;
